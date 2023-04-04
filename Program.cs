@@ -1,10 +1,18 @@
-﻿int firstValue = 501;
-int secondValue = 600;
-int largerValue = Math.Max(firstValue, secondValue);
-bool statement = firstValue % 2 == 0 ? true : false;
-int number = -5;
+﻿int employeeLevel = 300;
+string employeeName = "Bilbo";
 
-    return int neg = number * -1 < 0 ? number * -1 : number * -1 > 0 ? number : 0;
+string title = "";
 
+switch (employeeLevel) {
+    case 100:
+        title = "mail room";
+        break;
+    case 200:
+        title = "manager";
+        break;
+    case 300:
+        title = "CEO";
+        break;
+}
 
-Console.WriteLine(neg);
+Console.WriteLine($"{employeeName}, {title}");
