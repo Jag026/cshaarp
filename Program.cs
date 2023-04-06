@@ -10,3 +10,6 @@ do {
 
 Console.WriteLine("Total Rolls:");
 Console.WriteLine(rollCount);
+
+
+Console.WriteLine(rollCount * 100)
