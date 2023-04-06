@@ -10,9 +10,3 @@ do {
 
 Console.WriteLine("Total Rolls:");
 Console.WriteLine(rollCount);
-
-//
-//
-///
-
-///
