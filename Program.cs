@@ -1,7 +1,3 @@
-﻿
-string [] names = {
-    "Bilbo",
-    "Fink"
-};
-
-Console.WriteLine(names[0]);
+﻿for (int i = 0; i < 5; i += 1) {
+    Console.WriteLine(i);
+}
