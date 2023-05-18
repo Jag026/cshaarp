@@ -1,11 +1,7 @@
 ﻿
-int characterLevel = 1;
+string [] names = {
+    "Bilbo",
+    "Fink"
+};
 
-switch (characterLevel) {
-    case 1:
-        Console.WriteLine("Lev 1");
-        break;
-    case 2:
-        Console.WriteLine("Lev 2");
-        break;
-}
+Console.WriteLine(names[0]);
